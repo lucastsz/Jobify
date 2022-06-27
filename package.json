@@ -1,0 +1,26 @@
+{
+  "name": "jobify",
+  "version": "1.0.0",
+  "description": "Jobify is a simple job board for sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucastsz/Jobify.git"
+  },
+  "keywords": [
+    "jobify",
+    "job"
+  ],
+  "author": "Lucas Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucastsz/Jobify/issues"
+  },
+  "homepage": "https://github.com/lucastsz/Jobify#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
