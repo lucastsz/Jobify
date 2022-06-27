@@ -2,9 +2,12 @@ const express = require('express')
 
 const app = express()
 
+app.set('view engine', 'ejs')
+
 app.get('/', (request, response) => {
-  console.log(new Date())
-  response.send('Olá')
+  response.render('home', {
+    date: new Date()
+  })
 })
 
 app.listen(3000, err => {
