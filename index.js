@@ -6,9 +6,7 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 app.get('/', (request, response) => {
-  response.render('home', {
-    date: new Date()
-  })
+  response.render('home', {})
 })
 
 app.get('/vaga', (request, response) => {
