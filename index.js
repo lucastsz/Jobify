@@ -11,6 +11,10 @@ app.get('/', (request, response) => {
   })
 })
 
+app.get('/vaga', (request, response) => {
+  response.render('vaga', {})
+})
+
 app.listen(3000, err => {
   if (err) {
     console.log('Nao foi possivel iniciar o servidor do Jobify')
