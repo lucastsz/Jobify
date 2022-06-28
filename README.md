@@ -1,2 +1,2 @@
 # Jobify
-Jobify project from FullStackMaster (Devpleno) course using EJS, CSS and JavaScript
+Jobify project from FullStackMaster (Devpleno) course using ejs, CSS and JavaScript
